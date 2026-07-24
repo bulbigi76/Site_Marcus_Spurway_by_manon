@@ -11,9 +11,32 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: burlywood;
 }
 
-#accueil{
-    text-align: center;
+#marcus {
+    background-color: #A17B54;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0 0px 30px; /* haut droite bas gauche */
+}
+
+.texte {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+#marcus img {
+    width: 250px; 
+    height: auto;
+}
+
+#marcus div {
+    width: 60%;
+}
+
+#marcus p,
+#marcus h3{
+    margin-left: 2%;
 }

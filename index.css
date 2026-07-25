@@ -13,7 +13,7 @@ body {
     z-index: 1000;
 }
 
-#marcus {
+#equipe {
     background-color: #A17B54;
     color: white;
     display: flex;
@@ -27,16 +27,16 @@ body {
 }
 
 
-#marcus img {
+#equipe img {
     width: 250px; 
     height: auto;
 }
 
-#marcus div {
+#equipe div {
     width: 60%;
 }
 
-#marcus p,
-#marcus h3{
+#equipe p,
+#equipe h3{
     margin-left: 2%;
 }

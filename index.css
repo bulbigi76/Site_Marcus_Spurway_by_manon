@@ -61,37 +61,36 @@ body {
 }
 
 
-.section-marron{
-    background-color: #67504B;
-    color: #E8E8E8;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
 
-.section-blanche{
+
+.section-blanche {
     background-color: #E8E8E8;
     color: #67504B;
     display: flex;
-    align-items: center; 
+    flex-direction: row;
+    align-items: center;
     gap: 30px;
-    padding: 10px;
+    padding: 30px
+}
+
+.section-blanche p,
+.section-blanche h3{
+    margin-left: 10%;
+}
+
+.section-blanche img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 8%;
+    
 }
 
 .manon, .madeline, .leanne, .chloe{
     width: 80%;
 }
 
-.section-marron img{
-    width: 200px;
-    border-radius: 10px;
-}
-
-.section-blanche img{
-    width: 200px;
-    border-radius: 10px;
-}
 
 
 

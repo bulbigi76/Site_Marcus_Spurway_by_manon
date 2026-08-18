@@ -125,5 +125,201 @@ body {
 }
 
 
+/* =========================================================
+   VERSION MOBILE UNIQUEMENT
+   Le CSS original reste inchangé sur ordinateur
+   ========================================================= */
+
+@media screen and (max-width: 600px) {
+
+    /* ---------- MENU ---------- */
+
+    #menu {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 2px;
+        padding: 8px 5px;
+
+        background: rgba(255, 255, 255, 0.97);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    #menu a {
+        font-size: 11px;
+        text-align: center;
+        padding: 8px 3px;
+
+        line-height: 1.2;
+        white-space: nowrap;
+    }
+
+
+    /* ---------- ACCUEIL ---------- */
+
+    #accueil {
+        min-height: 75vh;
+        background-position: center;
+    }
+
+    #accueil h1 {
+        font-size: 2.8rem;
+        line-height: 1.05;
+        letter-spacing: 2px;
+
+        text-align: center;
+        padding: 20px;
+    }
+
+
+    /* ---------- LA MARQUE ---------- */
+
+    #marcus {
+        width: calc(100% - 24px);
+
+        margin: 25px auto;
+        padding: 22px 18px;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    #marcus img {
+        width: 200px;
+        max-width: 80%;
+
+        margin: 0 auto;
+    }
+
+    #marcus p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+
+    /* ---------- EQUIPE ---------- */
+
+    #equipe {
+        width: calc(100% - 24px);
+
+        margin: 25px auto;
+        padding: 22px 18px;
+    }
+
+    .section-blanche {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+
+        padding: 25px 15px;
+    }
+
+    .section-blanche img {
+        width: 170px;
+        height: auto;
+
+        margin: 0 auto;
+    }
+
+    .section-blanche h3 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .section-blanche p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    /* ---------- REJOINDRE ---------- */
+
+    #rejoindre {
+        width: calc(100% - 24px);
+
+        margin: 25px auto;
+        padding: 22px 18px;
+    }
+
+    #rejoindre p,
+    #rejoindre li {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    /* ---------- PRODUITS ---------- */
+
+    #produits {
+        width: calc(100% - 24px);
+
+        margin: 25px auto;
+        padding: 22px 18px;
+    }
+
+
+    /* ---------- CONTACT ---------- */
+
+    #contact {
+        width: calc(100% - 24px);
+
+        margin: 25px auto;
+        padding: 22px 18px;
+    }
+
+    #contact a {
+        font-size: 15px;
+        overflow-wrap: anywhere;
+    }
+
+
+    /* ---------- TITRES ---------- */
+
+    #marcus h2,
+    #equipe h2,
+    #rejoindre h2,
+    #produits h2,
+    #contact h2 {
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+}
+
+
+/* =========================================================
+   TRÈS PETITS TÉLÉPHONES
+   ========================================================= */
+
+@media screen and (max-width: 380px) {
+
+    #menu a {
+        font-size: 10px;
+    }
+
+    #accueil h1 {
+        font-size: 2.4rem;
+    }
+
+    #marcus,
+    #equipe,
+    #rejoindre,
+    #produits,
+    #contact {
+        width: calc(100% - 16px);
+        padding: 18px 14px;
+    }
+
+    .section-blanche {
+        padding: 20px 10px;
+    }
+}
+
 
 

@@ -90,11 +90,14 @@ body {
     flex-direction: column;
 }
 
-
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0) saturate(100%) invert(32%) sepia(11%) saturate(700%) hue-rotate(334deg) brightness(90%) contrast(88%);
+}
 
 
 .section-blanche {
-    background-color: #E8E8E8;
+    background-color: #ffffff;
     color: #67504B;
     display: flex;
     flex-direction: row;

@@ -95,6 +95,26 @@ body {
     filter: brightness(0) saturate(100%) invert(32%) sepia(11%) saturate(700%) hue-rotate(334deg) brightness(90%) contrast(88%);
 }
 
+/* ---------- TAILLE FIXE DU CARROUSEL ---------- */
+
+#carouselExample {
+    height: 450px;
+}
+
+#carouselExample .carousel-inner {
+    height: 100%;
+}
+
+#carouselExample .carousel-item {
+    height: 100%;
+}
+
+#carouselExample .section-blanche {
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
 
 .section-blanche {
     background-color: #ffffff;

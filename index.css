@@ -79,8 +79,9 @@ body {
 }
 
 
-#menu:hover{
+#menu a:hover{
     color: #C9A227;
+    text-decoration: underline;
 }
 
 #menu a{
@@ -104,6 +105,13 @@ body {
     flex-direction: column;
 }
 
+#contact a{
+    color:#C9A227;
+}
+
+#contact a:hover{
+    color: #67504B;;
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: brightness(0) saturate(100%) invert(32%) sepia(11%) saturate(700%) hue-rotate(334deg) brightness(90%) contrast(88%);
